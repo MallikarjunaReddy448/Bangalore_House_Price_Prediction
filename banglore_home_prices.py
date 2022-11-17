@@ -1,6 +1,5 @@
 import pandas as pd 
 import numpy as np 
-import json 
 from pickle import load
 import streamlit as st
 
