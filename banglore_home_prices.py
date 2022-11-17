@@ -26,11 +26,13 @@ def main():
     st.set_page_config(
         page_title= "Bangalore House Price Predictor"
     )
-
+    
+    st.title('Bangalore House Price Prediction')
+    
     menu = ['About','Check House Price','Contact']
     choice = st.sidebar.selectbox('Select option',menu)
     if choice == 'Check House Price':
-        st.title('Bangalore House Price Prediction')
+        
 
         loc = st.selectbox(label='select location',options=df.columns[3:])
 
