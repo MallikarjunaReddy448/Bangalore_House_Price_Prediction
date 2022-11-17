@@ -2,7 +2,8 @@ import pandas as pd
 import numpy as np 
 from pickle import load
 import streamlit as st
-from sklearn.linear_model import LinearRegression 
+from sklearn.linear_model import LinearRegression
+
 
 model = load(open("banglore_home_prices_model.pickle",'rb'))
 
